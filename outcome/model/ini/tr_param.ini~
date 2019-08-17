@@ -1,0 +1,33 @@
+[param_setting]
+; train / test
+phase = test
+; batch size in training, 1
+batch_size = 2
+; patch size in training, 400
+inputI_size = 320
+; input channel number, 1
+inputI_chn = 1
+; output image size, 400
+outputI_size = 320
+; output channel, 2
+output_chn = 2
+; resize ratio
+resize_r = 1.0
+; training data directory
+traindata_dir = /media/xinyang/echo2/2018_img_qual/code/final/data/20180228_pool/images/s_com/hc/5_split_aug_resize_320/train
+; checkpoint directory
+chkpoint_dir = ../outcome/model/checkpoint
+; learning rate of Adam, 1e-3
+learning_rate = 0.001
+; momentum term of Adam, 0.5
+beta1 = 0.5
+; training epoch, 10000
+epoch = 6000
+; model name
+model_name = us_gap.model
+; model save interval
+save_intval = 1000
+; testing data  directory
+testdata_dir = /media/xinyang/echo2/2018_img_qual/code/final/data/20180228_pool/images/k_com/hc/after_30w_1/5_split_aug_resize_320/test
+; labeling output directory
+labeling_dir = /media/xinyang/echo2/2018_img_qual/code/final/data/predict/s_2_k
