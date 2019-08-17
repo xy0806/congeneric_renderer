@@ -11,6 +11,11 @@
 10 test prediction results along the 25 iterations are attached in the results folder for your reference. Segmentation refinement can be observed as the iteration increases.
 Currently, this method only works on two fetal head datasets, and doesn't present advantages on other more complex tasks.
 
+[Basic Problem Illustration]
+Segmentation performance drop due to the appearance shift among different ultrasound machine.
+![image](https://github.com/xy0806/congeneric_renderer/blob/master/test_results/curve/cross_device.png)
+
+
 Improvement curve of DICE along 25 iterations.
 ![image](https://github.com/xy0806/congeneric_renderer/blob/master/test_results/curve/1_dice.png)
 ![image](https://github.com/xy0806/congeneric_renderer/blob/master/test_results/curve/2_dice.png)
