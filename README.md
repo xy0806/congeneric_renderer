@@ -13,7 +13,7 @@ Currently, this method only works on two fetal head datasets, and doesn't presen
 
 [Basic Problem Illustration]
 Segmentation performance drop due to the appearance shift among different ultrasound machine.
-![image](https://github.com/xy0806/congeneric_renderer/blob/master/test_results/curve/cross_device.png)
+![image](https://github.com/xy0806/congeneric_renderer/blob/master/cross_device.png)
 
 
 Improvement curve of DICE along 25 iterations.
